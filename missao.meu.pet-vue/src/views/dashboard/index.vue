@@ -1,6 +1,6 @@
 <script setup>
 import {ref} from "vue";
-import img1 from '@/src/assets/images/A - Mamaco.png';
+// import img1 from '@/src/assets/images/A - Mamaco.png';
 
 let drawer = ref(true);
 let rail   = ref(true);
@@ -17,7 +17,7 @@ let rail   = ref(true);
           @click="rail = false"
       >
         <v-list-item
-            :prepend-avatar="img1"
+
             title="André"
             nav
         >

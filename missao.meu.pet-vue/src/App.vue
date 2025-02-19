@@ -1,6 +1,10 @@
 <script setup>
 import { Toaster, toast } from 'vue-sonner'
-import index from './views/dashboard/index.vue'
+import DashboardIndex from './views/dashboard/index.vue'
+import {onMounted} from "vue";
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
 </script>
 
 <template>
@@ -10,7 +14,8 @@ import index from './views/dashboard/index.vue'
             class: 'pe-2 ps-2 pt-5 pb-5',
           }"
   />
-  <index/>
+
+  <DashboardIndex />
 </template>
 
 <style scoped>

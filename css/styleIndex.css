@@ -134,3 +134,44 @@
    text-decoration: underline;
    text-decoration-thickness: 2px;
 }
+
+/* MINI CARDS */
+.mini-cards .card {
+   max-height: 295px;
+}
+.mini-cards .card.shadow:hover {
+   overflow: hidden;
+}
+.mini-cards .card:hover {
+   box-shadow: 0px 0px 2px 6px rgba(126, 126, 150, 0.044) !important;
+}
+.div-title-cards {
+   color: #2f4f4f;
+}
+
+/* CARDS PREVIEW */
+.card {
+   min-height: 350px;
+   max-height: 530px;
+   overflow: hidden;
+}
+#divCard .card-img-top {
+   max-height: 160px;
+}
+.card-text {
+   max-height: auto;
+   overflow: hidden;
+}
+/* Base da página */
+
+.footer {
+   background-color: #2b2a2a;
+   height: 71px;
+   margin-top: 3rem;
+}
+
+@media (maxWidth: 720px) {
+   .mini-cards .card {
+      max-height: auto;
+   }
+}

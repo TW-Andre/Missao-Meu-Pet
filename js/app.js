@@ -1,3 +1,11 @@
+import {petList} from './petList.js'
+import { showPreviewInitialPage } from './petList.js';
+
+let showPreviewCards = document.querySelector('#show-preview-cards')
+const getArrayPets = petList.slice(0,4)
+
+showPreviewInitialPage(showPreviewCards, getArrayPets)
+
 new TypeIt(".asyncExec", {
    speed: 80,
    waitUntilVisible: true,

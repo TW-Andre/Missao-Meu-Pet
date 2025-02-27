@@ -2,7 +2,7 @@ export const petList = [
    {
       'name' : 'Fred',
       'description' : 'Cachorro macho preto sem raça definida',
-      'img' : '../Images/dog3.jpg',
+      'img' : '/images/dog3.jpg',
       'tutor': 'Tomás Ferreira Costa',
       'phone':'(55) 2510-1082',
       'adress': 'Rua Fábio Carneiro Lima, 395, bairro Sarandi,Porto Alegre-RS'
@@ -10,7 +10,7 @@ export const petList = [
    {
       'name' : 'Thomas',
       'description' : 'Cachorro macho da raça Akita, se perdeu no bairro Belém Velho no dia 25 de Abril',
-      'img' : `../Images/dog4.jpg`,
+      'img' : `/images/dog4.jpg`,
       'tutor': 'Ryan Barbosa Carvalho',
       'phone':'(54) 2796-1143',
       'adress': 'Rua Giácomo Muttoni, 255, Bairro Belém Velho, Porto Alegre-RS '
@@ -18,7 +18,7 @@ export const petList = [
    {
       'name' : 'Lucy',
       'description' : 'Gatinha pulou do barco durante resgate, nadou pra uma casa mas nao foi localizada ',
-      'img' : '../Images/cat2.jpg',
+      'img' : '/images/cat2.jpg',
       'tutor': 'Rafaela Melo Barros',
       'phone': '(51) 2746-3126',
       'adress':'Rua Santa Catarina, 105, Bairro Mathias Velho, Canoas-RS'

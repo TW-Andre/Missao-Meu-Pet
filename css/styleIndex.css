@@ -29,3 +29,23 @@
 .navbar-nav .nav-item .foot-prints {
    width: 30px;
 }
+
+/* Área de apresentação */
+
+.section-presentation {
+   width: 85%;
+   box-shadow: 0px 0px 10px 1px #2f4f4f;
+   margin: 4rem 0;
+   font-weight: 500;
+   background-color: #fffcf7;
+}
+.section-presentation:hover {
+   box-shadow: 0px 0px 10px 3px #2f4f4f;
+}
+.carousel-inner {
+   box-shadow: 0px 0px 17px 1px #c6d8cb;
+}
+.carousel-item img {
+   width: 100%;
+   max-height: 400px;
+}

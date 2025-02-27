@@ -1,0 +1,31 @@
+* {
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   list-style: none;
+   box-sizing: border-box;
+}
+
+/* Toda página */
+.all-page {
+   background-color: #fffcf7;
+}
+
+/* Navbar */
+
+.navbar {
+   background-color: #2f4f4f;
+   color: white;
+}
+.navbar-brand img {
+   width: 50px;
+}
+.navbar-nav .nav-item a {
+   color: white;
+}
+.navbar-nav .nav-item a:hover {
+   color: orange;
+}
+.navbar-nav .nav-item .foot-prints {
+   width: 30px;
+}
